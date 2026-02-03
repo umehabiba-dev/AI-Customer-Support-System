@@ -6,6 +6,8 @@
 
 This is a proof-of-concept (POC) Streamlit web application that demonstrates AI-powered customer support ticket processing. The application uses Google Gemini 3 Flash Preview API to analyze support tickets, extract key issues and sentiment, and generate professional reply suggestions.
 
+**Note:** This POC processes all inputs as text, demonstrating the core NLP capability that would be used across all channels (email, chat, voice) after text extraction. In a full system, voice would first be transcribed to text, email would be parsed, and chat would be processed directly - but all would use the same core AI processing demonstrated here.
+
 ## Installation
 
 **Python Version:** Python 3.8 or higher required (tested on Python 3.14.2)
